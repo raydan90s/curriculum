@@ -20,6 +20,11 @@ body {
     color: var(--color-text);
 }
 
+/* Sobre mi */
+#sobreMi{
+    scroll-margin-top: 80px;
+}
+
 /* Header */
 header {
     position: fixed;
@@ -129,6 +134,7 @@ h1 {
     transition: all 0.3s ease;
     margin-bottom: 1.5rem;
     font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
 }
 
 .estado:hover {
@@ -567,7 +573,7 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     color: white;
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 
 .footer-descripcion {
